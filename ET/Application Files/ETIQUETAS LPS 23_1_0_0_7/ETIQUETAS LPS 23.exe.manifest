@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ETIQUETAS LPS 23.exe" version="1.0.0.7" publicKeyToken="c4471ab4e60d72cc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ETIQUETAS LPS 23" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ETIQUETAS LPS 23.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AltoControls.dll" size="31232">
+      <assemblyIdentity name="AltoControls" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MgXxM03FDt8c+sdXg4q3YigUjBMcEpDk2EeAhMt5MBY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ETIQUETAS LPS 23.exe" size="36264">
+      <assemblyIdentity name="ETIQUETAS LPS 23" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OB+UpAd6sOC8SjXfBUI2FGTJsXF39G7Cr0Yb1RAnhY8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="438272">
+      <assemblyIdentity name="MySql.Data" version="6.7.4.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nFJmBfe8bWHS0ADfez5ePVR222r2oQ1FTQELDlR7rZQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ETIQUETAS LPS 23.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=APTIV\nzpp5k" issuerKeyHash="01c6fca42e5709da7ccffa8e087d42e4963e3083" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>v3p37oprGp3onTlw0jBtX71DoUXVha/VUQumwTl7NIU=</DigestValue></Reference></SignedInfo><SignatureValue>JHhdiwgVp6vUhjy455GFo5hcd4KqKKk/fJHclT/zcDwqUT0jRwKfauJxjXXghHcojL9K80LW4UPZIgJT+lzxSelD+B4/6zuwBnOa1IMfew1d2v105XJpgMrkAz+Lmlxkm4M8YicYgKetGGLPWrRU9zsmC69fU4fpHK4Z4/ufxWk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xcOJVetISUq1BbgM43SmtTzmrxKXz3zCdPdNpNstOsj9SWaeNyQ5VCDqctxSbH1xkHi+zErT+0jJGiBP6LHH1SnjLcknV8oPMVfHfPi2L7N2mRGF9zkP60i51gE4By0KO5EPCgHMjB5bq6y83QFrJ1iB7mDd1RQ8Fqiu7Fb/Q7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="85347b39c1a60b51d5af85d545a143bd5f6d30d270399de89d1a6b8aee777abf" Description="" Url=""><as:assemblyIdentity name="ETIQUETAS LPS 23.exe" version="1.0.0.7" publicKeyToken="c4471ab4e60d72cc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=APTIV\nzpp5k</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Kelqt4IMv8L2i/1+JOy5QIdigmczvZAHXOntIn6a0XU=</DigestValue></Reference></SignedInfo><SignatureValue>vzfB2YNZ1E0k8/XrW6RdHzf6FHvDXFDyhrrK8n9eWaXWCsnoFFsnQ4Mk8TQNAjOvDKZ+mQ0QGrGnfgjpV7fNZQDAhu5vjRUf94zK3rZZsDEoALGeP5HK/3xIohKKzEIElzrX4zIsC97RdQcE5Z7JTiieXW6vNrKFRhT3YF3PUC0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xcOJVetISUq1BbgM43SmtTzmrxKXz3zCdPdNpNstOsj9SWaeNyQ5VCDqctxSbH1xkHi+zErT+0jJGiBP6LHH1SnjLcknV8oPMVfHfPi2L7N2mRGF9zkP60i51gE4By0KO5EPCgHMjB5bq6y83QFrJ1iB7mDd1RQ8Fqiu7Fb/Q7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQaZXdAEHvZLJMfqzdnSAmWzANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQQBQAFQASQBWAFwAbgB6AHAAcAA1AGswHhcNMjMwMzA0MDA0NzQ1WhcNMjQwMzAzMDY0NzQ1WjAjMSEwHwYDVQQDHhgAQQBQAFQASQBWAFwAbgB6AHAAcAA1AGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMXDiVXrSElKtQW4DON0prU85q8Sl898wnT3TaTbLTrI/UlmnjckOVQg6nLcUmx9cZB4vsxK0/tIyRogT+ixx9Up4y3JJ1fKDzFXx3z4ti+zdpkRhfc5D+tIudYBOActCjuRDwoBzIweW6usvN0BaydYge5g3dUUPBaoruxW/0O1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAY4tLeGQrCiCvgLDdcsRSe1c7rF90CZsResBYfXowUka3FHPmCoeuB+S9vuNDzt0q3DEMjAi4v8sssJUvkIL3xlXRypAb0EsyeoaU7x96jr8V+bPW/NaS0RORKC9OYOUV4v/CmK5MOb+8NYMVYZ4OyzIBsfUa/7H3kXJ2jxIiqDo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

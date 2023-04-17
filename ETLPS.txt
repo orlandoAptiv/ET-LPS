@@ -1,0 +1,27 @@
+^XA
+^FO10, 70^ADN, 27, 24^FDSelector^FS
+^FO35,25^ADN, 27, 24^FD
+NPD
+^FS
+^FO210,70^ADN, 27, 25^FD
+SELECTOR
+^FS
+^FO10, 120^ADN, 27, 24^FDOpcion:^FS
+^FO210,120^ADN, 28, 28^FD
+opcion
+^FS
+^FO330,50,^BY1.5
+^BCN,100,Y,N,N
+^FD
+codigobarras
+^FS
+^FO10,175^ADN, 40, 14^FD
+empalme
+^FS
+^FO130,175^ADN, 40, 14^FD
+fecha
+^FS
+^FO330,175^ADN, 40, 14^FD
+hora
+^FS
+^XZ

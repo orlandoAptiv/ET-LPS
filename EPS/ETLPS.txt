@@ -1,0 +1,12 @@
+^XA
+^FO50,35^ADN, 40, 20^FD
+empalme
+^FS
+^FO50, 80^ADN, 27, 24^FDOpcion:^FS
+^FO230,80^ADN, 28, 28^FD
+opcion
+^FS
+^FO50,140^ADN, 40, 14^FD
+fecha
+^FS
+^XZ
